@@ -9,7 +9,12 @@ pipeline {
             }
         }
 
-       
+         stage('Build') {
+            steps {
+                // Run a Windows batch command to build the project
+                bat 'C:\Users\neha_sharma3\Software\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin\mvn clean install'
+            }
+        }
          }
 
     post {
