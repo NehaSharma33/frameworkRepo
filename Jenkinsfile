@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout source code from Git repository
-                git 'https://github.com/NehaSharma33/frameworkRepo.git''
+                git 'https://github.com/NehaSharma33/frameworkRepo.git'
             }
         }
 
