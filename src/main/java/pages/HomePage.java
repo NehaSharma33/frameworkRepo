@@ -1,5 +1,5 @@
-package org.example.pages;
-import org.example.locators.HomePageLocator;
+package pages;
+import com.feature.locators.HomePageLocator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

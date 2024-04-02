@@ -3,7 +3,7 @@
 <suite name="TestSuite">
     <test name="LoginTest">
         <classes>
-            <class name="org.example.tests.LoginTest"/>
+            <class name="tests.com.feature.LoginTest"/>
         </classes>
     </test>
 </suite>-->
@@ -11,12 +11,12 @@
 <suite name="Parallel Suite" parallel="tests" thread-count="2">
     <test name="Test1">
         <classes>
-            <class name="org.example.tests.RegressionTest"/>
+            <class name="com.feature.tests.RegressionTest"/>
         </classes>
     </test>
     <test name="Test2">
         <classes>
-            <class name="org.example.tests.SanityTest"/>
+            <class name="com.feature.tests.SanityTest"/>
         </classes>
     </test>
 </suite>

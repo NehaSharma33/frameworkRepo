@@ -1,4 +1,4 @@
-package org.example.locators;
+package com.feature.locators;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
