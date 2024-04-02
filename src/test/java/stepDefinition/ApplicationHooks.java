@@ -33,6 +33,14 @@ public class ApplicationHooks {
 
     }
 
+    @Before(order = 2)
+    public void launchUrl() throws InterruptedException {
+        WebDriverFactory.getDriver()
+                .get("https://www.way2automation.com/demo.html");
+        Thread.sleep(10000);
+
+    }
+
     @After(order = 0)
     public void quitBrowser() {
         driver.quit();
